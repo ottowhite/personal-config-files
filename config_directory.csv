@@ -4,3 +4,4 @@
 init.vim,~/.config/nvim/init.vim,y
 wsl.conf,/etc/wsl.conf,y
 resolv.conf,/etc/resolv.conf,y
+i3config,~/.config/i3/config,y
