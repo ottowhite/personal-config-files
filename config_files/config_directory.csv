@@ -1,5 +1,0 @@
-.zshrc,~/.zshrc,y
-.ideavimrc,~/.ideavimrc,y
-init.vim,~/.config/nvim/init.vim,y
-wsl.conf,/etc/wsl.conf,y
-resolv.conf,/etc/resolv.conf,y
