@@ -1,14 +1,6 @@
-# Theme
 ZSH_THEME="fwalch"
 
-# Useful directories
-export trash=$HOME"/.local/share/Trash/files"
-export co="/mnt/c/Users/OttoWhite"
-
-# Environment variables
-export EDITOR="nvim"
-
-# Configure files
+# Configuration aliases
 alias cfz="$EDITOR $ZDOTDIR/.zshrc && source $ZDOTDIR/.zshrc"
 alias cfv="$EDITOR ~/.ideavimrc"
 alias cfi="$EDITOR ~/.config/i3/config"
@@ -41,5 +33,6 @@ export KEYTIMEOUT=20
 # Do ls when change directory
 chpwd() ls 
 
+# Start Oh My Zsh, leave at end of file
 source $ZSH/oh-my-zsh.sh
 
