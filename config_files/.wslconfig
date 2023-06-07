@@ -1,0 +1,6 @@
+# Lives inside windows home
+
+[wsl2]
+memory=20GB  # Limits VM memory in WSL 2 up to 20GB
+processors=8 # Makes the WSL VM use 8 virtual processors
+
