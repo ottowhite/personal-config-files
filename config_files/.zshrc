@@ -2,7 +2,7 @@ ZSH_THEME="fwalch"
 
 # Configuration aliases
 alias cfz="$EDITOR $ZDOTDIR/.zshrc && source $ZDOTDIR/.zshrc"
-alias cfv="$EDITOR ~/.ideavimrc"
+alias cfv="$EDITOR ~/.config/nvim/init.vim"
 alias cfi="$EDITOR ~/.config/i3/config"
 alias cfa="$EDITOR ~/.config/alacritty/alacritty.yml"
 alias cfx="$EDITOR ~/.config/X/.xinitrc"
