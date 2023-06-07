@@ -5,8 +5,7 @@ alias cfz="$EDITOR $ZDOTDIR/.zshrc && source $ZDOTDIR/.zshrc"
 alias cfv="$EDITOR ~/.ideavimrc"
 alias cfi="$EDITOR ~/.config/i3/config"
 alias cfa="$EDITOR ~/.config/alacritty/alacritty.yml"
-alias cfx="sudo $EDITOR /etc/X11/xorg.conf"
-alias cfxinit="$EDITOR ~/.config/X/.xinitrc"
+alias cfx="$EDITOR ~/.config/X/.xinitrc"
 
 # Useful aliases
 alias gh="alias | grep"
