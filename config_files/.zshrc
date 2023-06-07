@@ -1,6 +1,3 @@
-export ZDOTDIR="$HOME/.config/zsh"
-export ZSH="$ZDOTDIR/.oh-my-zsh"
-
 # Theme
 ZSH_THEME="fwalch"
 
@@ -45,3 +42,4 @@ export KEYTIMEOUT=20
 chpwd() ls 
 
 source $ZSH/oh-my-zsh.sh
+

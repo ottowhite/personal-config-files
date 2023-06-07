@@ -1,3 +1,4 @@
+.zshenv,~/.zshenv,y
 .zshrc,~/.config/zsh/.zshrc,y
 .ideavimrc,~/.ideavimrc,y
 init.vim,~/.config/nvim/init.vim,y
