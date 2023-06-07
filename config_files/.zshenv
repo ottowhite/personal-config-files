@@ -13,6 +13,9 @@ export HISTFILE="$ZDOTDIR/.zhistory"    # History filepath
 export HISTSIZE=10000                   # Maximum events for internal history
 export SAVEHIST=10000                   # Maximum events in history file
 
+# Maven home
+export M2_HOME=/usr/share/maven
+
 # Useful directories
 export TRASH=$HOME"/.local/share/Trash/files"
 export WINDOWS_HOME="/mnt/c/Users/OttoWhite"
