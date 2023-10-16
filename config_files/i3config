@@ -32,7 +32,7 @@ bindsym $mod+e       exec --no-startup-id /home/otto/.config/i3/evalClip.sh
 bindsym $mod+a       exec --no-startup-id brave --new-window --app="https://chat.openai.com/chat"
 bindsym $mod+i       exec --no-startup-id brave --new-window --app="https://icloud.com/notes"
 bindsym $mod+b       exec --no-startup-id brave
-bindsym $mod+n       exec --no-startup-id notion-app-enhanced
+bindsym $mod+n       exec --no-startup-id brave --new-window --app="https://notion.so/"
 bindsym $mod+t       exec --no-startup-id brave --new-window --app="https://outlook.office.com/mail/" & brave --new-window --app="https://mail.google.com/mail/u/0/#inbox"
 bindsym $mod+s       exec --no-startup-id /home/otto/.config/i3/pickMusic.sh
 
@@ -40,13 +40,12 @@ bindsym $mod+Shift+s exec --no-startup-id maim -s --format png /dev/stdout | xcl
 bindsym $mod+Shift+e exec --no-startup-id /home/otto/.config/i3/wifiController.sh
 bindsym $mod+Shift+b exec --no-startup-id /home/otto/.config/i3/bluetoothController.sh
 bindsym $mod+Shift+p exec --no-startup-id i3lock -c 000000
-bindsym $mod+Shift+n exec --no-startup-id brave --new-window --app="https://calendar.google.com/calendar/u/0/r?pli=1"
+bindsym $mod+Shift+n exec --no-startup-id brave --new-window --app="https://calendar.google.com/calendar/u/0/r?pli=1" && brave --new-window "https://www.imperial.ac.uk/timetabling/calendar/cal?vt=month&dt=2023-10-11&et=student&fid0=01847459"
 bindsym $mod+Shift+c exec --no-startup-id libreoffice ~/Documents/Journal.docx
-bindsym $mod+Shift+d exec --no-startup-id libreoffice /home/otto/Documents/Dream\ journal\ \(new\).docx
+bindsym $mod+Shift+d exec --no-startup-id brave --new-window --app="https://discord.com/app"
 bindsym $mod+Shift+w exec --no-startup-id brave --new-window --app="https://web.whatsapp.com" & brave --new-window --app="https://messages.google.com/web/conversations" 
 
 bindsym $mod+Shift+Ctrl+s exec --no-startup-id maim -s --format jpg ~/Pictures/screenshots/screenshot_`date '+%d-%m-%y_%H:%M:%S'`.jpg
-bindsym $mod+Ctrl+Shift+d exec --no-startup-id /home/otto/Applications/Discord/Discord
 
 bindsym XF86MonBrightnessUp   exec /home/otto/.config/i3/brightnessChanger.sh 1
 bindsym XF86MonBrightnessDown exec /home/otto/.config/i3/brightnessChanger.sh -1
@@ -60,10 +59,12 @@ bindsym XF86AudioNext exec --no-startup-id playerctl next       ; exec --no-star
 bindsym XF86AudioPrev exec --no-startup-id playerctl previous   ; exec --no-startup-id notify-send -t 1000 "Previous" ""
 
 font pango:Noto Mono for Powerline, Font Awesome 8
+
 bar {
         mode hide
         position top
         font pango:Noto Mono for Powerline, Font Awesome 11
+
         status_command bumblebee-status \
             -m nic memory nvidiagpu cpu pasink pasource battery time \
             -p time.format="%d/%m/%y (%a) %H:%M:%S" \
@@ -72,16 +73,17 @@ bar {
                nic.format='{ssid}' \
                .format='' \
             -t nord-powerline
+
         colors {
 
-		            # Gruvbox
+		# Gruvbox
                 #                  border  bg      text
                 # focused_workspace  #705F51 #705F51 #EBDBB2
                 # active_workspace   #1C2121 #222233 #EBDBB2
                 # inactive_workspace #1C2121 #1C2121 #EBDBB2
                 # background #1C2121 
 
-		            # Mild blue-ish theme
+		# Mild blue-ish theme
                 focused_workspace  #555577 #555577 #FFFFFF
                 active_workspace   #333344 #222233 #FFFFFF
                 inactive_workspace #333344 #333344 #FFFFFF
