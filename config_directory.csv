@@ -5,5 +5,4 @@ vscode-settings.json,~/.config/Code/User/settings.json,y
 vscode-keybindings.json,~/.config/Code/User/keybindings.json,y
 init.vim,~/.config/nvim/init.vim,y
 wsl.conf,/etc/wsl.conf,y
-resolv.conf,/etc/resolv.conf,y
 i3config,~/.config/i3/config,y
