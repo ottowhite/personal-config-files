@@ -1,4 +1,4 @@
-ZSH_THEME="fwalch"
+ZSH_THEME="skaro"
 
 # Configuration aliases
 alias cfz="$EDITOR $ZDOTDIR/.zshrc && source $ZDOTDIR/.zshrc"
