@@ -28,6 +28,7 @@ alias kcs="kubectl config get-contexts "
 alias krmp="kubectl delete pod "
 alias kdp="kubectl describe pod "
 alias ktail="kubetail "
+alias uc="cd $PCF && gd"
 
 
 # Plugins
